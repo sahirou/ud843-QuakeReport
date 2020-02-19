@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
     android:gravity="center_vertical"
     android:orientation="horizontal"
     android:padding="16dp">
@@ -19,8 +20,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="left"
-            android:text="4.5"
-            android:textSize="16sp"
+            tools:text="4.5"
             android:textStyle="bold" />
 
         <TextView
@@ -29,9 +29,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="left"
-            android:text="Alger"
-            android:textColor="@android:color/black"
-            android:textSize="16sp" />
+            tools:text="Alger" />
 
         <TextView
             android:id="@+id/time"
@@ -39,9 +37,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="left"
-            android:text="Feb 2, 2016"
-            android:textColor="@android:color/black"
-            android:textSize="16sp" />
+            tools:text="Feb 2, 2016" />
 
     </LinearLayout>
 
